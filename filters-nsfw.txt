@@ -1,1 +1,27 @@
+! Title: privated-filters-nsfw
+! Author: papypoutine | {@R!s TechCor}
+! Version: 1.0
+! Expires: N/A
+! License: N/A
+! Homepage: N/A
+! Contact: N/A
+! Support: N/A
+! Contribution: N/A
 
+! ---------------------------------- NSFW FILTRAGE ---------------------------------- !
+
+! https://hanime.tv
+hanime.tv##div:nth-of-type(1) > .active.desktop.htvad.mb-5
+hanime.tv##.landing__content > div:nth-of-type(2) > .active.desktop.htvad.mb-5
+hanime.tv##div:nth-of-type(3) > .active.desktop.htvad.mb-5
+hanime.tv##.landing__content > .active.desktop.htvad.mb-5
+
+! https://www.hentaicloud.com
+www.hentaicloud.com##body > div:nth-of-type(5)
+www.hentaicloud.com##canvas:nth-of-type(2)
+www.hentaicloud.com##section.horizontal-ads-content:nth-of-type(3) > .container > .ad
+www.hentaicloud.com##section.horizontal-ads-content:nth-of-type(3) > .container > .title
+www.hentaicloud.com##section.horizontal-ads-content:nth-of-type(5)
+www.hentaicloud.com##section.horizontal-ads-content:nth-of-type(8)
+
+! ---------------------------------- NSFW FILTRAGE ---------------------------------- !
